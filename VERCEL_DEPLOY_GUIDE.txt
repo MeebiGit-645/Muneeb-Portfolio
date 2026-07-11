@@ -1,0 +1,45 @@
+Vercel Deployment Guide for Muneeb Portfolio
+
+1. Push the project to GitHub
+- Make sure your latest changes are committed.
+- Push the main branch to: https://github.com/MeebiGit-645/Muneeb-Portfolio.git
+
+2. Open Vercel
+- Go to https://vercel.com
+- Sign in with your GitHub account.
+
+3. Import the repository
+- Click "Add New" or "New Project".
+- Select the GitHub repository: Muneeb-Portfolio.
+- Continue to the import settings.
+
+4. Configure the project
+- Framework preset: Vercel should usually detect it automatically.
+- Root Directory: leave it as the repository root.
+- Build Command: npm run build
+- Output Directory: build
+
+5. Add environment variables
+- Open the Environment Variables section in Vercel.
+- Add the same EmailJS values that you use locally.
+- Do not commit those values into GitHub.
+- Redeploy after adding them.
+
+6. Deploy
+- Click Deploy.
+- Wait for Vercel to finish the build.
+- Open the generated deployment URL.
+
+7. Verify the app
+- Check that the home page loads correctly.
+- Confirm navigation, project cards, and the contact form.
+- Test the contact form only after the environment variables are added.
+
+8. Redeploy later
+- Any new push to main will trigger a new deployment automatically.
+- If you change environment variables, redeploy from the Vercel dashboard.
+
+Notes
+- This project uses CRACO, so Vercel should run the build script defined in package.json.
+- If Vercel ever asks for the project type manually, select React or Other and keep the build output as build.
+- If the deploy fails, check the build logs in Vercel for the exact error.
