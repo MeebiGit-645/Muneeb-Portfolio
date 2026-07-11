@@ -63,16 +63,6 @@ public/
 npm install
 ```
 
-### Environment Variables
-
-Create a `.env` file in the project root and add your EmailJS credentials:
-
-```env
-REACT_APP_EMAILJS_SERVICE_ID=your_service_id
-REACT_APP_EMAILJS_TEMPLATE_ID=your_template_id
-REACT_APP_EMAILJS_PUBLIC_KEY=your_public_key
-```
-
 ### Run Locally
 
 ```bash
@@ -90,6 +80,7 @@ npm run build
 - Update personal details, projects, and experience in `src/data/mock.js`
 - Replace images and documents in `public/assets`
 - Adjust theme colors and layout styles in `src/index.css` and component files
+- Configure EmailJS credentials locally before using the contact form
 
 ## Contact
 
@@ -100,82 +91,3 @@ npm run build
 ## License
 
 This project is licensed under the MIT License.
-
-Edit:
-
-```
-tailwind.config.js
-```
-
-Example:
-
-```javascript
-colors: {
-  dark: {
-    900: "#000000",
-    800: "#0a0a0a"
-  }
-}
-```
-
----
-
-# 📦 **Production Build**
-
-```
-npm run build
-```
-
-This generates an optimized production build.
-
----
-
-# 🚀 **Deployment**
-
-### Deploy to Vercel
-
-1. Push code to **GitHub**
-2. Go to **Vercel**
-3. Import repository
-4. Set **Root Directory → frontend**
-5. Add environment variables
-6. Click **Deploy**
-
----
-
-# 📈 **Future Enhancements**
-
-* Blog section
-* Dark / Light mode
-* Project filtering
-* CMS integration
-* Testimonials
-* Resume download
-* Multi-language support
-
----
-
-# 👨‍💻 **Author**
-
-**Faizan Yousaf**
-
-💻 GitHub
-[https://github.com/Faizanyousaf140](https://github.com/Faizanyousaf140)
-
-💼 LinkedIn
-[http://www.linkedin.com/in/faizan-yousaf1/in/](http://www.linkedin.com/in/faizan-yousaf1/in/)
-
-📧 Email
-[faizanyousaf140@gmail.com](mailto:faizanyousaf140@gmail.com)
-
----
-
-# ⭐ **Support**
-
-If you like this project, please give it a **⭐ on GitHub**.
-
----
-
-💙 **Built with passion by Faizan Yousaf**
-
----
