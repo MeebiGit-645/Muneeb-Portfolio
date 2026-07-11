@@ -153,10 +153,10 @@ export const mockData = {
   experience: [
     {
       id: 1,
-      position: "Full Stack Developer (Part-Time, Hybrid)",
+      position: "Full Stack Developer (Full-Time, Hybrid)",
       company: "Digital Genei",
       duration: "June 2025 - June 2026",
-      type: "Part-Time",
+      type: "Par-Time",
       description:
         "Developed scalable full-stack applications using React.js, Next.js, Node.js, PostgreSQL, and MongoDB, owning the complete lifecycle from requirement analysis to deployment.",
       companyUrl: "https://www.linkedin.com/company/digitalgenei/posts/?feedView=all",
