@@ -260,9 +260,11 @@ export default function Experience({ data }) {
                             )}
                           </div>
                         </div>
-                        <span className="px-3 py-1 bg-dark-800 text-white text-xs font-semibold rounded-full shadow-md">
-                          {exp.type}
-                        </span>
+                        {exp.type && (
+                          <span className="px-3 py-1 bg-dark-800 text-white text-xs font-semibold rounded-full shadow-md">
+                            {exp.type}
+                          </span>
+                        )}
                       </div>
 
                       <p className="text-gray-600 text-sm mb-3 flex items-center gap-2">

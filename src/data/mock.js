@@ -156,7 +156,7 @@ export const mockData = {
       position: "Full Stack Developer (Hybrid)",
       company: "Digital Genei",
       duration: "June 2025 - June 2026",
-      type: "Full-Time",
+      type: "",
       description:
         "Developed scalable full-stack applications using React.js, Next.js, Node.js, PostgreSQL, and MongoDB, owning the complete lifecycle from requirement analysis to deployment.",
       companyUrl: "https://www.linkedin.com/company/digitalgenei/posts/?feedView=all",
@@ -167,24 +167,6 @@ export const mockData = {
         "Deployed secure FastAPI applications with robust authentication using Docker and Kubernetes",
       ],
       technologies: ["React.js", "Next.js", "Node.js", "Express.js", "PostgreSQL", "MongoDB", "Supabase", "Docker", "FastAPI"],
-      image: "/assets/digitalgenei_logo.jpg",
-    },
-    {
-      id: 2,
-      position: "Backend Developer Intern (On-site)",
-      company: "Digital Genei",
-      duration: "June 2024 - August 2024",
-      type: "Internship",
-      description:
-        "Developed RESTful APIs using Node.js and MongoDB, improved database schema design and query efficiency, and integrated backend services with frontend applications.",
-      companyUrl: "https://www.linkedin.com/company/digitalgenei/posts/?feedView=all",
-      achievements: [
-        "Developed RESTful APIs using Node.js and MongoDB",
-        "Improved database schema design and query efficiency",
-        "Integrated backend services with frontend applications",
-        "Assisted in debugging, documentation, and deployment workflows",
-      ],
-      technologies: ["Node.js", "MongoDB", "REST APIs", "Git", "React", "JavaScript"],
       image: "/assets/digitalgenei_logo.jpg",
     },
   ],
