@@ -131,7 +131,7 @@ export default function Navbar() {
 
               {/* Desktop Resume Button */}
               <a
-                href="/assets/CV Muneeb Arif (ASE).pdf"
+                href="/assets/MuneebArif_Resume.pdf"
                 download
                 className="flex items-center gap-2 bg-white hover:bg-light-200 text-dark-900 font-semibold px-6 py-3 rounded-full transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:shadow-white/20"
               >
@@ -209,7 +209,7 @@ export default function Navbar() {
 
           {/* Mobile Resume Button */}
           <a
-            href="/assets/CV Muneeb Arif (ASE).pdf"
+            href="/assets/MuneebArif_Resume.pdf"
             download
             onClick={() => setIsMenuOpen(false)}
             className="mt-6 flex items-center justify-center gap-2 bg-white hover:bg-light-200 text-dark-900 font-semibold px-6 py-4 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg"

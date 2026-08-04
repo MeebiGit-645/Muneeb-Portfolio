@@ -10,7 +10,7 @@ export const mockData = {
     summary:
       "Computer Science graduate with experience in full-stack web development using React, Next.js, Node.js and Django. Built AI-assisted features using Computer Vision, Generative AI, and Retrieval-Augmented Generation (RAG). Comfortable working with REST and FastAPI services and SQL/NoSQL databases. Interested in building practical applications that combine AI with modern web systems.",
     profileImage: "/assets/Muneeb.png",
-    cvUrl: "/assets/CV Muneeb Arif (ASE).pdf",
+    cvUrl: "/assets/MuneebArif_Resume.pdf",
   },
   skills: {
     frontend: [
